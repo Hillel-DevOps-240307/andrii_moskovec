@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .DS_Store
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10,3 +11,7 @@
 >>>>>>> bb32e40 (hw-2 changed .gitignore + add files)
 =======
 >>>>>>> a78932c (change .gitignore_2)
+=======
+*.DS_Store
+*.pre-commit-config.yaml
+>>>>>>> 33cb8d3 (change .gitignore_3)
