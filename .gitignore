@@ -1,1 +1,6 @@
 .DS_Store
+<<<<<<< HEAD
+=======
+.git
+.pre-commit-config.yaml
+>>>>>>> 4d8c497 (all files)
