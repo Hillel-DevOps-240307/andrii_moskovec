@@ -1,1 +1,25 @@
+HomeWorks
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 .DS_Store
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.git
+.pre-commit-config.yaml
+>>>>>>> 4d8c497 (all files)
+=======
+>>>>>>> bb32e40 (hw-2 changed .gitignore + add files)
+=======
+>>>>>>> a78932c (change .gitignore_2)
+=======
+*.DS_Store
+*.pre-commit-config.yaml
+>>>>>>> 33cb8d3 (change .gitignore_3)
+=======
+.DS_Store/
+.git/
+.github/
+.pre-commit-config.yaml
+>>>>>>> e52c330 (change .gitignore)
