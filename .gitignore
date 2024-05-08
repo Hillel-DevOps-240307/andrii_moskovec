@@ -1,6 +1,9 @@
 .DS_Store
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .git
 .pre-commit-config.yaml
 >>>>>>> 4d8c497 (all files)
+=======
+>>>>>>> bb32e40 (hw-2 changed .gitignore + add files)
