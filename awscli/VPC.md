@@ -121,7 +121,7 @@ aws ec2 run-instances \
     --subnet-id $PUB_SUB_ID \
     --block-device-mappings "[{\"DeviceName\":\"/dev/sdf\",\"Ebs\":{\"VolumeSize\":30,\"DeleteOnTermination\":false}}]" \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=demo-web-server}, {Key=Project,Value=demo}]' \
-    --user-data file://~/ItHillel/andrii_moskovec/awscli/web.sh
+    --user-data file://~/HILL/andrii_moskovec/HomeWorks/hw-2/web.sh
 
 >
     cat ~/HILL/andrii_moskovec/HomeWorks/hw-2/web.sh
