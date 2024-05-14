@@ -1,8 +1,8 @@
-> VARIABLES
-    VPC_ID
-    PUB_SUB_ID
-    PRIV_SUB_ID
-    AMI_ID
+# VARIABLES  
+> VPC_ID  
+    PUB_SUB_ID  
+    PRIV_SUB_ID  
+    AMI_ID  
     SG_ID
 
 ########################################################################
