@@ -1,0 +1,5 @@
+{
+    "instance_size": "t2.micro",
+    "region": "eu-central-1",
+    "base_ami": "ami-007lfbe485995432e"
+}
