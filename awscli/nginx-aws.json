@@ -23,12 +23,12 @@
             "inline": [
                 "sudo apt-get update",
                 "sudo apt-get install -y git nginx"
-        ]
-    ,}
+        	]
+    	},
 	{
-       "type": "shell",
-       "script": "scripts/install_mysql.sh",
-       "execute_command": "sudo {{.Path}}"
-    }
+       	"type": "shell",
+       	"script": "scripts/install_mysql.sh",
+       	"execute_command": "sudo {{.Path}}"
+    	}
     ]
 }
