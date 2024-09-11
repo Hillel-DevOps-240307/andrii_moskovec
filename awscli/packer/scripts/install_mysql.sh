@@ -8,6 +8,7 @@ MYSQL_PASSWORD="Pa55WD"
 MYSQL_DB="flask_db"
 MYSQL_HOST="127.0.0.1"
 
+
 #### Create Mysql user and database
 sudo mysql -e " CREATE USER IF NOT EXISTS 'admin'@'%' IDENTIFIED BY 'Pa55WD';
 SELECT user FROM mysql.user;
