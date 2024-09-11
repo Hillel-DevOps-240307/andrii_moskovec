@@ -1,0 +1,35 @@
+{
+    "builders": [
+        {
+          "type": "amazon-ebs",
+          "region": "{{user `region` }}",
+          "source_ami": "{{user `base_ami` }}",
+          "instance_type": "{{user `instance_size` }}",
+          "ami_name": "my-awesome-ami-for-aws",
+          "ssh_username": "ubuntu",
+          "ssh_timeout": "20m",
+          "tags": {
+            "Project": "Devops",
+            "ami_type": "app",
+            "OS": "ubuntu_2204",
+            "BuiltBy": "Packer"
+          }
+        }
+      ],
+
+      "description": "AWS image",
+    "provisioners": [
+        {
+            "type": "shell",
+            "inline": [
+                "sudo apt-get update",
+                "sudo apt-get install -y git nginx"
+        	]
+    	},
+	    {
+       	    "type": "shell",
+       	    "script": "scripts/app.sh",
+       	    "execute_command": "sudo {{.Path}}"
+    	}
+    ]
+}
