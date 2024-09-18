@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   region = "eu-west-1"
-  profile = "terraform"
+#  profile = "terraform"
 }
 
 resource "aws_instance" "web-srv" {
