@@ -1,6 +1,7 @@
 TF/.terraform
 TF/terraform.tfstate
 TF/terraform.tfstate.backup
+TF/.terraform.lock.hcl
 HomeWorks
 <<<<<<< HEAD
 <<<<<<< HEAD
